@@ -26,7 +26,7 @@
                     "payload":"DEVELOPER_DEFINED_PAYLOAD"
                  }
               ]
-           },
+           }, 
                {
               "title":"Welcome!",
                  "image_url":"https://upload.wikimedia.org/wikipedia/commons/7/70/Example.png",
