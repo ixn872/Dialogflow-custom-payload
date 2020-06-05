@@ -9,5 +9,5 @@ https://developers.facebook.com/docs/messenger-platform/reference/templates/medi
 ### attaching video, image: 
 https://developers.facebook.com/docs/messenger-platform/send-messages#types
 
-* Video link must be actual mp3, mp4 link
+* Video link must be actual mp3, mp4 link and small in size up to 25MB
 * Image link jpg,png
