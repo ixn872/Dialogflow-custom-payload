@@ -1,0 +1,11 @@
+{
+  "facebook": {
+    "attachment": {
+      "type": "video",
+      "payload": {
+        "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+        "is_reusable":true
+      }
+    }
+  }
+}
