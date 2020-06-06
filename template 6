@@ -6,14 +6,26 @@
         "template_type": "generic",
         "elements": [
           {
-            "title":"Some website",
-              "image_url": "https://www.seafarma.nl/wp-content/uploads/2019/04/World-Health-Organization.jpg",
-              "subtitle":"When you click it takes you to the website",
+            "title": "Welcome!",
+            "subtitle": "I am Covid-bot, here to answer all your questions regarding COVID-19",
+            
               "default_action":{
                  "type":"web_url",
-                 "url":"https://www.who.int/emergencies/diseases/novel-coronavirus-2019",
-                 "webview_height_ratio":"full"
+                 "url":"https://www.google.com/",
+                 "webview_height_ratio":"tall"
+              },
+            "buttons": [
+              {
+                "type": "web_url",
+                "url": "https://covid-bot.com/",
+                "title": "View Website"
+              },
+              {
+                "type": "postback",
+                "title": "Example Questions",
+                "payload": "DEVELOPER_DEFINED_PAYLOAD"
               }
+            ]
           }
         ]
       }
