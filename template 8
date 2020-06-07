@@ -1,0 +1,38 @@
+{
+  "facebook": {
+    "attachment": {
+      "payload": {
+        "template_type": "generic",
+        "elements": [
+          {
+            "default_action": {
+              "url": "https://www.google.com/",
+              "type": "web_url",
+              "webview_height_ratio": "tall"
+            },
+            "buttons": [
+              {
+                "payload": "What is COVID-19",
+                "type": "postback",
+                "title": "What is COVID-19"
+              },
+              {
+                "payload": "Symptoms",
+                "title": "Symptoms",
+                "type": "postback"
+              },
+              {
+                "type": "postback",
+                "payload": "Precautions",
+                "title": "Precautions"
+              }
+            ],
+            "subtitle": "Here are some questions you can ask me",
+            "title": "Example questions"
+          }
+        ]
+      },
+      "type": "template"
+    }
+  }
+}
